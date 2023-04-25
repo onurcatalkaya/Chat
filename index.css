@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+#container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	margin-bottom: 20px;
+	height: 400px;
+	overflow-y: scroll;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+li {
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.sent {
+	background-color: #4caf50;
+	color: #fff;
+	float: right;
+}
+
+.receive {
+	background-color: #f2f2f2;
+	color: #000;
+	float: left;
+}
+
+form {
+	display: flex;
+}
+
+#message-input {
+	flex-grow: 1;
+	margin-right: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+button[id="submit"] {
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.sent {
+    background-color: #aaffaa;
+    margin-left: 50%;
+  }
+  
+  .receive {
+    background-color: #aaaaff;
+    margin-right: 50%;
+  }
+  
+  button.delete {
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+.emoji {
+    background-color: #f44336;
+    margin-right: 10px;
+  }
+
+  .delete-button {
+    display: none;
+  }
+  
+  .sent:hover .delete-button {
+    display: inline-block;
+  }
