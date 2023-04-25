@@ -2,11 +2,11 @@
 var firebaseConfig = {
   apiKey: "AIzaSyDQzPMnHQqOahW7mSjvARcq2nkr01XGcho",
   authDomain: "jilachat-9ba7f.firebaseapp.com",
+  databaseURL: "https://jilachat-9ba7f-default-rtdb.firebaseio.com",
   projectId: "jilachat-9ba7f",
   storageBucket: "jilachat-9ba7f.appspot.com",
   messagingSenderId: "294786921605",
   appId: "1:294786921605:web:a84c626558c995340765ec",
-  measurementId: "G-9BLN0J385W"
 };
 firebase.initializeApp(firebaseConfig);
 
