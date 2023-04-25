@@ -1,12 +1,12 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyD1HvaG67v_5Se4QyPUYMx1VpHmuJHf-QY",
-  authDomain: "jilachat-a89cd.firebaseapp.com",
-  databaseURL: "https://jilachat-a89cd-default-rtdb.firebaseio.com",
-  projectId: "jilachat-a89cd",
-  storageBucket: "jilachat-a89cd.appspot.com",
-  messagingSenderId: "539578938852",
-  appId: "1:539578938852:web:cb41b9acee871d50d3c3f1"
+  apiKey: "AIzaSyDQzPMnHQqOahW7mSjvARcq2nkr01XGcho",
+  authDomain: "jilachat-9ba7f.firebaseapp.com",
+  projectId: "jilachat-9ba7f",
+  storageBucket: "jilachat-9ba7f.appspot.com",
+  messagingSenderId: "294786921605",
+  appId: "1:294786921605:web:a84c626558c995340765ec",
+  measurementId: "G-9BLN0J385W"
 };
 firebase.initializeApp(firebaseConfig);
 
